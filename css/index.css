@@ -1,0 +1,60 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #7F7FD5;
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Comic Sans MS,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+a:visited, a:link, a:active {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+  color: #3134da;
+}
+main {
+  text-align: center;
+}
+main ul {
+  list-style-type: none;
+  padding: 0;
+}
+main ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+main ul li .iconfont {
+  font-size: 22px;
+}
+footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu{
+  font-size: 22px;
+}

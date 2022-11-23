@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="sugarys" />
+    <meta name="author" content="sugarys" />
+    <title>Sugarys</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="assets/icon/iconfont.css" />
+    <link rel="icon" href="./favicon.ico" type="images/x-ico" />
+    <script>
+      //禁止鼠标右击
+      document.oncontextmenu = function (event) {
+                event.returnValue = false;
+            };
+            //禁用开发者工具F12
+            document.onkeydown = document.onkeyup = document.onkeypress = function (event) {
+                let e = event || window.event || arguments.callee.caller.arguments[0];
+                if (e && e.keyCode == 123) {
+                    e.returnValue = false;
+                    return false;
+                }
+            };
+    </script>
+  </head>
+  <body>
+    <main>
+      <img src="./assets/icon/logo.png" />
+      <h1>Sugarys</h1>
+      <h2>There are stars and moon to look forward to, the universe can be more romantic</h2>
+      <ul>
+        <li>
+          <a href="http://blog.sugarys.top" target="_blank" title="博客">
+            <span class="iconfont icon-blogger"></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://photo.sugarys.top" target="_blank" title="相册">
+            <span class="iconfont icon-album-l"></span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:704668943@qq.com" title="邮箱">
+            <span class="iconfont icon-email "></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/zhonglin8659" target="_blank" title="Github">
+            <span class="iconfont icon-github4"></span>
+          </a>
+        </li>
+        <li>
+          <a href="http://blog.sugarys.top" target="_blank" title="关于">
+            <span class="iconfont icon-me"></span>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <a href="#">Copyright © 2021-2022 Zhong Lin | Sugarys</a>
+    </footer>
+  </body>
+</html>
